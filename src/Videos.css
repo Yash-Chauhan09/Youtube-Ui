@@ -1,0 +1,29 @@
+.videos{
+    flex: 0.8;
+    background-color: #fafafa;
+}
+.videos > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgrey;
+}
+.videos__recommended{
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: whitesmoke;
+    padding: 14px 5px;
+ flex-wrap: wrap;
+}
+.videos__video{
+    padding: 14px 18px;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media(max-width:600px){
+    .videos__video{
+      justify-content: center;
+    }
+    .videos{
+        flex: 0.9;
+    }
+  }
